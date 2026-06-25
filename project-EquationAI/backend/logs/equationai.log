@@ -1,0 +1,655 @@
+2026-06-07 11:55:20 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 11:55:20 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 11:55:20 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 11:55:20 | INFO     | EquationAI.history_service | migrate_legacy_history:66 | Migrated 18 entries from legacy history.json to database.
+2026-06-07 11:55:20 | INFO     | EquationAI.main           | lifespan:45 | Migrated 18 legacy history entries.
+2026-06-07 11:55:20 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 11:56:47 | WARNING  | tensorflow                | _tfmw_add_deprecation_warning:149 | From C:\Users\Shree Khodiyar\AppData\Roaming\Python\Python313\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-07 11:56:48 | INFO     | EquationAI.chroma_manager | __init__:145 | Initializing SentenceTransformers and ChromaDB...
+2026-06-07 11:56:51 | WARNING  | huggingface_hub.file_download | _download_to_tmp_and_move:1736 | Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-06-07 11:57:21 | INFO     | EquationAI.chroma_manager | _seed_chroma_db:191 | Seeded ChromaDB with 11 equations.
+2026-06-07 11:57:21 | INFO     | EquationAI.chroma_manager | __init__:157 | ChromaDB Vector Database initialized successfully.
+2026-06-07 11:57:21 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 6b7b7e25-9611-484a-b912-46500f209c1e (source=converter)
+2026-06-07 11:57:21 | INFO     | EquationAI.middleware     | dispatch:69 | [2f11bb9f] POST /api/convert/latex-to-mathml → 200 (75806ms)
+2026-06-07 11:57:25 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 11:57:25 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 11:57:25 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 11:57:25 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 11:57:25 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 11:57:51 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-07 11:57:51 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-07 11:58:12 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 11:58:12 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 11:58:12 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 11:58:12 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 11:58:12 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 11:58:22 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-07 11:58:22 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-07 11:58:38 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 11:58:38 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 11:58:38 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 11:58:38 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 11:58:38 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 11:58:44 | INFO     | EquationAI.middleware     | dispatch:69 | [c4993c78] OPTIONS /api/convert/latex-to-mathml → 200 (0ms)
+2026-06-07 11:59:07 | WARNING  | tensorflow                | _tfmw_add_deprecation_warning:149 | From C:\Users\Shree Khodiyar\AppData\Roaming\Python\Python313\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-07 11:59:08 | INFO     | EquationAI.chroma_manager | __init__:145 | Initializing SentenceTransformers and ChromaDB...
+2026-06-07 11:59:12 | INFO     | EquationAI.chroma_manager | _seed_chroma_db:191 | Seeded ChromaDB with 11 equations.
+2026-06-07 11:59:12 | INFO     | EquationAI.chroma_manager | __init__:157 | ChromaDB Vector Database initialized successfully.
+2026-06-07 11:59:12 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 933107f8-aca7-44e6-8acb-8d5361f94059 (source=converter)
+2026-06-07 11:59:12 | INFO     | EquationAI.middleware     | dispatch:69 | [03561f7a] POST /api/convert/latex-to-mathml → 200 (28351ms)
+2026-06-07 11:59:18 | INFO     | EquationAI.chroma_manager | add_equation:317 | Indexed new equation: a2 + b2 =c2
+...
+2026-06-07 11:59:18 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 347ac40e-3e14-4796-afa1-6fab0b8280d4 (source=converter)
+2026-06-07 11:59:18 | INFO     | EquationAI.middleware     | dispatch:69 | [7db1a475] POST /api/convert/latex-to-mathml → 200 (34ms)
+2026-06-07 12:00:05 | INFO     | EquationAI.middleware     | dispatch:69 | [fdba5416] OPTIONS /api/handwriting/recognize → 200 (0ms)
+2026-06-07 12:00:05 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-07 12:04:10 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 12:04:10 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 12:04:10 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 12:04:10 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 12:04:10 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 12:05:04 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-07 12:05:04 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-07 12:05:05 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 12:05:05 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 12:05:05 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 12:05:05 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 12:05:05 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 12:05:22 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-07 12:05:22 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-07 12:05:24 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-07 12:05:24 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-07 12:05:24 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-07 12:05:24 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-07 12:05:24 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-07 12:06:04 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:36 | Preprocessing handwriting image: (1187, 400), mode=RGBA
+2026-06-07 12:06:04 | INFO     | EquationAI.handwriting_preprocessor | _auto_crop:156 | Auto-cropped to content: (763, 279)
+2026-06-07 12:06:04 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:68 | Preprocessing complete: (1187, 400) → (606, 260)
+2026-06-07 12:06:04 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 13:15:05 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:15:05 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:15:05 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:15:05 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:15:05 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:15:45 | INFO     | EquationAI.middleware     | dispatch:69 | [101114a3] OPTIONS /api/handwriting/recognize → 200 (0ms)
+2026-06-09 13:15:45 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:36 | Preprocessing handwriting image: (1187, 400), mode=RGBA
+2026-06-09 13:15:45 | INFO     | EquationAI.handwriting_preprocessor | _auto_crop:156 | Auto-cropped to content: (941, 311)
+2026-06-09 13:15:45 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:68 | Preprocessing complete: (1187, 400) → (665, 260)
+2026-06-09 13:15:45 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 13:15:49 | ERROR    | EquationAI.ocr_service    | _ensure_model:42 | Failed to load LatexOCR model: No module named 'torch'
+2026-06-09 13:15:49 | WARNING  | EquationAI.exceptions     | app_exception_handler:124 | AppException: PROCESSING_ERROR — Ocr model loading failed: No module named 'torch' — POST /api/handwriting/recognize
+2026-06-09 13:15:49 | ERROR    | EquationAI.middleware     | dispatch:61 | [4afb25ee] POST /api/handwriting/recognize → 500 (3849ms)
+2026-06-09 13:17:22 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 3e728cedad45_download.png (959 bytes)
+2026-06-09 13:17:22 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 13:17:22 | ERROR    | EquationAI.ocr_service    | _ensure_model:42 | Failed to load LatexOCR model: No module named 'torch'
+2026-06-09 13:17:22 | WARNING  | EquationAI.exceptions     | app_exception_handler:124 | AppException: PROCESSING_ERROR — Ocr model loading failed: No module named 'torch' — POST /api/upload
+2026-06-09 13:17:22 | ERROR    | EquationAI.middleware     | dispatch:61 | [36228aec] POST /api/upload → 500 (12ms)
+2026-06-09 13:18:10 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:18:10 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:19:22 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:19:22 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:19:22 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:19:22 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:19:22 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:19:26 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: a6fdab95f153_download.png (959 bytes)
+2026-06-09 13:19:26 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 13:19:29 | ERROR    | EquationAI.ocr_service    | _ensure_model:42 | Failed to load LatexOCR model: No module named 'torch'
+2026-06-09 13:19:29 | WARNING  | EquationAI.exceptions     | app_exception_handler:124 | AppException: PROCESSING_ERROR — Ocr model loading failed: No module named 'torch' — POST /api/upload
+2026-06-09 13:19:29 | ERROR    | EquationAI.middleware     | dispatch:61 | [3e3345b7] POST /api/upload → 500 (3044ms)
+2026-06-09 13:19:31 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:19:31 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:19:34 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:19:34 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:19:34 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:19:34 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:19:34 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:19:50 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:19:50 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:19:52 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:19:52 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:19:52 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:19:52 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:19:52 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:09 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:09 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:10 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:10 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:10 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:10 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:10 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:11 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:11 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:13 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:13 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:13 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:13 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:13 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:19 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:19 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:21 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:21 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:21 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:21 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:21 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:27 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: ee520d76e1de_download.png (959 bytes)
+2026-06-09 13:20:27 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 13:20:30 | ERROR    | EquationAI.ocr_service    | _ensure_model:42 | Failed to load LatexOCR model: No module named 'torch'
+2026-06-09 13:20:30 | WARNING  | EquationAI.exceptions     | app_exception_handler:124 | AppException: PROCESSING_ERROR — Ocr model loading failed: No module named 'torch' — POST /api/upload
+2026-06-09 13:20:30 | ERROR    | EquationAI.middleware     | dispatch:61 | [23fdda83] POST /api/upload → 500 (2964ms)
+2026-06-09 13:20:38 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:38 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:40 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:40 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:40 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:40 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:40 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:55 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:55 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:57 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:57 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:57 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:57 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:57 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:20:58 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:20:58 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:20:59 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:20:59 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:20:59 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:20:59 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:20:59 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:21:19 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:21:19 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:26:50 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:26:50 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:26:50 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:26:50 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:26:50 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:26:56 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:26:56 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:26:57 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:26:57 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:26:57 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:26:57 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:26:57 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:26:58 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 13:26:58 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 13:27:00 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 13:27:00 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 13:27:00 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 13:27:00 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 13:27:00 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 13:27:05 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: b1cf447ca8a1_download.png (959 bytes)
+2026-06-09 13:27:05 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 17:59:58 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 17:59:58 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 17:59:58 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 17:59:58 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 17:59:58 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:00:44 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 1ee882951b64_images.png (2105 bytes)
+2026-06-09 18:00:44 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 18:08:10 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:08:10 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:08:10 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:08:10 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:08:10 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:08:12 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:08:12 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:08:12 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:08:12 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:08:12 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:08:13 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:08:13 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:08:13 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:08:14 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:08:14 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:08:14 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 18:08:14 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 18:08:16 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:08:16 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:08:16 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:08:16 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:08:16 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:08:22 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 18:08:22 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 18:08:24 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:08:24 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:08:24 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:08:24 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:08:24 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:09:00 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 18:09:00 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 18:09:26 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:09:26 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:09:26 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:09:26 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:09:26 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:09:36 | INFO     | EquationAI.main           | lifespan:61 | Application shutting down...
+2026-06-09 18:09:36 | INFO     | EquationAI.main           | lifespan:72 | Shutdown complete.
+2026-06-09 18:09:38 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:09:38 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:09:38 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:09:38 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:09:38 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:09:38 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: cec242132905_equation-analysis-report__5_.pdf (4218 bytes)
+2026-06-09 18:09:39 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 18:10:30 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:10:30 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:10:30 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:10:30 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:10:30 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:11:55 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 340dbdaa88ef_e1.pdf (1901 bytes)
+2026-06-09 18:11:55 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 18:12:56 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:12:56 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:12:56 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:12:56 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:12:56 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:13:07 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: c6f091f78f94_e1.pdf (1901 bytes)
+2026-06-09 18:13:07 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-09 18:14:19 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:14:19 | INFO     | EquationAI.main           | lifespan:32 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:14:19 | INFO     | EquationAI.main           | lifespan:36 | Database tables created/verified.
+2026-06-09 18:14:19 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:14:19 | INFO     | EquationAI.main           | lifespan:56 | Application startup complete.
+2026-06-09 18:14:21 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-09 18:14:21 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-09 18:14:21 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-09 18:14:21 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-09 18:14:21 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-09 18:14:33 | INFO     | EquationAI.middleware     | dispatch:69 | [3d93910d] OPTIONS /api/handwriting/recognize → 200 (0ms)
+2026-06-09 18:14:33 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:36 | Preprocessing handwriting image: (1187, 400), mode=RGBA
+2026-06-09 18:14:33 | INFO     | EquationAI.handwriting_preprocessor | _auto_crop:156 | Auto-cropped to content: (499, 293)
+2026-06-09 18:14:33 | INFO     | EquationAI.handwriting_preprocessor | preprocess_handwriting:68 | Preprocessing complete: (1187, 400) → (400, 260)
+2026-06-09 18:14:33 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-10 10:34:22 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 10:34:22 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 10:34:22 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 10:34:22 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 10:34:22 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-10 10:34:36 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 59814e370628_e1.pdf (1901 bytes)
+2026-06-10 10:34:36 | INFO     | EquationAI.document_extractor | extract_from_pdf:239 | PDF text extraction found no equations — falling back to OCR
+2026-06-10 10:34:37 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-10 11:14:55 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 11:14:55 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 11:14:55 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 11:14:55 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 11:14:55 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-10 11:27:56 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-10 11:27:56 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-10 11:27:57 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 11:27:57 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 11:27:57 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 11:27:57 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 11:27:57 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-10 11:27:59 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-10 11:27:59 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-10 11:28:00 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 11:28:00 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 11:28:00 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 11:28:00 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 11:28:00 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-10 11:28:01 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-10 11:28:01 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-10 11:28:03 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 11:28:03 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 11:28:03 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 11:28:03 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 11:28:03 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-10 11:28:04 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-10 11:28:04 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-10 11:28:06 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-10 11:28:06 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-10 11:28:06 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-10 11:28:06 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-10 11:28:06 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 11:17:18 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 11:17:18 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 11:17:18 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 11:17:18 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 11:17:18 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 11:17:48 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 70088745e09b_download.png (959 bytes)
+2026-06-11 11:17:48 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-11 12:17:30 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 12:17:30 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 12:17:30 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 12:17:30 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 12:17:30 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 12:21:31 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 640be267fa02_e2.png (1567 bytes)
+2026-06-11 12:21:31 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-11 13:20:18 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 13:20:18 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 13:20:18 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 13:20:18 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 13:20:18 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 13:20:18 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 04ec2e0dc704_e2.png (1567 bytes)
+2026-06-11 13:20:18 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-11 18:34:42 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 18:34:42 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 18:34:42 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 18:34:42 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 18:34:42 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 18:35:20 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 14ed8a687c10_e2.png (1567 bytes)
+2026-06-11 18:35:20 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-11 18:39:10 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 18:39:10 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 18:39:10 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 18:39:10 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 18:39:10 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 18:39:30 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 0f5a26e92852_e2.png (1567 bytes)
+2026-06-11 18:39:30 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-11 19:32:11 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-11 19:32:11 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-11 19:32:11 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-11 19:32:11 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-11 19:32:11 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-11 19:32:23 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: c3ca5afdf9ac_e2.png (1567 bytes)
+2026-06-11 19:32:23 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 10:07:23 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:07:23 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:07:23 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:07:23 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:07:23 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:09:06 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 91779d6dd383_e2.png (1567 bytes)
+2026-06-12 10:09:06 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 10:21:17 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:21:17 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:21:17 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:21:17 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:21:17 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:21:44 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-12 10:21:44 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-12 10:22:12 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:22:12 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:22:12 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:22:12 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:22:12 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:22:18 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-12 10:22:18 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-12 10:22:38 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:22:38 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:22:38 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:22:38 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:22:38 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:22:51 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: e24ddec61f7c_e2.png (1567 bytes)
+2026-06-12 10:22:51 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 10:23:50 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:23:50 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:23:50 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:23:50 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:23:50 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:24:57 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 414b6356c12c_e2.png (1567 bytes)
+2026-06-12 10:24:57 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 10:38:09 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:38:09 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:38:09 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:38:09 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:38:09 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:40:11 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-12 10:40:11 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-12 10:40:13 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 10:40:13 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 10:40:13 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 10:40:13 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 10:40:13 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 10:48:34 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: e93c134b4c95_mathml.png (34732 bytes)
+2026-06-12 10:48:34 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 11:14:50 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 11:14:50 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 11:14:50 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 11:14:50 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 11:14:50 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 11:14:55 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 59c197d26183_e2.png (1567 bytes)
+2026-06-12 11:14:55 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-12 11:16:56 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-12 11:16:56 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-12 11:16:56 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-12 11:16:56 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-12 11:16:56 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-12 11:19:08 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 16f2d4a873b7_e2.png (1567 bytes)
+2026-06-12 11:19:08 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-13 09:14:19 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-13 09:14:19 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-13 09:14:19 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-13 09:14:19 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-13 09:14:19 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-17 12:17:07 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-17 12:17:07 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-17 12:17:07 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-17 12:17:07 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-17 12:17:07 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:18:08 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:18:08 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:18:08 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:18:08 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:18:08 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:18:40 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 37a0c0ddd62b_download.png (1567 bytes)
+2026-06-18 18:18:40 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 18:24:40 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:24:40 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:24:40 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:24:40 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:24:40 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:25:55 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: c2ff473df564_images.png (1567 bytes)
+2026-06-18 18:25:55 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 18:27:03 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:27:03 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:27:03 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:27:03 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:27:03 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:27:06 | INFO     | EquationAI.middleware     | dispatch:69 | [f7626bdc] OPTIONS /api/convert/mathml-to-latex → 200 (0ms)
+2026-06-18 18:27:06 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 48811359-0e7b-456b-bf21-d04f82905e22 (source=converter)
+2026-06-18 18:27:07 | INFO     | EquationAI.middleware     | dispatch:69 | [0e08f778] POST /api/convert/mathml-to-latex → 200 (44ms)
+2026-06-18 18:28:24 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 18:28:24 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 18:28:26 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:28:26 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:28:26 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:28:26 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:28:26 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:30:02 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: f36790c074b0_images.png (5659 bytes)
+2026-06-18 18:30:02 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 18:30:55 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:30:55 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:30:55 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:30:55 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:30:55 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:31:30 | WARNING  | tensorflow                | _tfmw_add_deprecation_warning:149 | From C:\Users\Shree Khodiyar\AppData\Roaming\Python\Python313\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2026-06-18 18:31:31 | INFO     | EquationAI.chroma_manager | __init__:145 | Initializing SentenceTransformers and ChromaDB...
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | _seed_chroma_db:191 | Seeded ChromaDB with 11 equations.
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | __init__:157 | ChromaDB Vector Database initialized successfully.
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | add_equation:317 | Indexed new equation: 5.2(3\cdota)=4a+10...
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: c9b70434-dbf9-4641-ba02-8cbbfd021b9f (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [11c7cb8a] POST /api/convert/latex-to-mathml → 200 (36028ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | add_equation:317 | Indexed new equation: 5.2(3\cdot\text{amd})=4\text{amd}+10...
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: e7b3884e-8273-449a-84a1-8a2712b6cac6 (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 970de57f-3c85-43da-8c1e-790ae105adc6 (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | add_equation:317 | Indexed new equation: 5.2(3\cdot\text{am})=4\text{am}+10...
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: b876b9e6-c8d5-4d86-8ef7-2b2708f54c50 (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 98995003-17c9-4a57-bfb8-3a70b8f714fb (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 978d60da-ec60-432f-a726-868c6b7924df (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [fb776e33] POST /api/convert/latex-to-mathml → 200 (77ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [c0b895a5] POST /api/convert/latex-to-mathml → 200 (77ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [54e93d31] POST /api/convert/latex-to-mathml → 200 (77ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [9d8a06c0] POST /api/convert/latex-to-mathml → 200 (77ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [8e9832ad] POST /api/convert/latex-to-mathml → 200 (78ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: a745dfaa-310d-4392-98d4-97d73af20f6e (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 7c181d8c-7464-4b15-9389-0ff35ce4247d (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 3deb0e55-0240-4690-a479-2ba8d0a45f0d (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: f340b684-3d07-4fd7-93c0-85a03162c6da (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.chroma_manager | add_equation:317 | Indexed new equation: 5.2(3\cdot\text{amdd})=4\text{amdd}+10...
+2026-06-18 18:31:36 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 69f78fdc-d531-4bc0-91d6-82a12cd58778 (source=converter)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [5c17ead8] POST /api/convert/latex-to-mathml → 200 (52ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [bf0adaf0] POST /api/convert/latex-to-mathml → 200 (52ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [230e3ef9] POST /api/convert/latex-to-mathml → 200 (51ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [02b802ad] POST /api/convert/latex-to-mathml → 200 (51ms)
+2026-06-18 18:31:36 | INFO     | EquationAI.middleware     | dispatch:69 | [6f6d77d5] POST /api/convert/latex-to-mathml → 200 (52ms)
+2026-06-18 18:31:37 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: cbae0b37-21d6-4245-8024-73ea2f1f02ca (source=converter)
+2026-06-18 18:31:37 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: fd9ec584-b392-4378-97bc-59792d310098 (source=converter)
+2026-06-18 18:31:37 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 19203e0f-376d-423f-b655-36e55e10c755 (source=converter)
+2026-06-18 18:31:37 | INFO     | EquationAI.history_service | create_entry:151 | Created history entry: 1fb1e6c0-c634-476e-866c-b1a5fe020d7e (source=converter)
+2026-06-18 18:31:37 | INFO     | EquationAI.middleware     | dispatch:69 | [333dedfe] POST /api/convert/latex-to-mathml → 200 (27ms)
+2026-06-18 18:31:37 | INFO     | EquationAI.middleware     | dispatch:69 | [cba149cf] POST /api/convert/latex-to-mathml → 200 (26ms)
+2026-06-18 18:31:37 | INFO     | EquationAI.middleware     | dispatch:69 | [96c922c1] POST /api/convert/latex-to-mathml → 200 (27ms)
+2026-06-18 18:31:37 | INFO     | EquationAI.middleware     | dispatch:69 | [1009bb91] POST /api/convert/latex-to-mathml → 200 (27ms)
+2026-06-18 18:31:42 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 18:31:42 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 18:34:20 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 18:34:20 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 18:34:20 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 18:34:20 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 18:34:20 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 18:34:53 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: edd644bc2172_images.png (5659 bytes)
+2026-06-18 18:34:53 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 19:06:02 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:06:02 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:06:02 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:06:02 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:06:02 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:07:43 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:07:43 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:07:45 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:07:45 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:07:45 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:07:45 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:07:45 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:08:33 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:08:33 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:08:35 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:08:35 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:08:35 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:08:35 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:08:35 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:09:39 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 66b670a96495_images.png (1567 bytes)
+2026-06-18 19:09:39 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 19:10:18 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:10:18 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:10:18 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:10:18 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:10:18 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:11:17 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:11:17 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:11:19 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:11:19 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:11:19 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:11:19 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:11:19 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:12:49 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:12:49 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:12:51 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:12:51 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:12:51 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:12:51 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:12:51 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:14:13 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:14:13 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:14:15 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:14:15 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:14:15 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:14:15 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:14:15 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:15:37 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:15:37 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:15:39 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:15:39 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:15:39 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:15:39 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:15:39 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:18:19 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: c9c1412d16f3_e2.png (1567 bytes)
+2026-06-18 19:18:19 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 19:27:28 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:27:28 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:27:28 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:27:28 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:27:28 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:28:58 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-18 19:28:58 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-18 19:29:00 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:29:00 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:29:00 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:29:00 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:29:00 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:29:33 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: f29f1b7d1799_e1.png (959 bytes)
+2026-06-18 19:29:33 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 19:30:31 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:30:31 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:30:31 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:30:31 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:30:31 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:30:35 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 36c63bdbdb2b_images.png (5659 bytes)
+2026-06-18 19:30:35 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-18 19:32:15 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-18 19:32:15 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-18 19:32:15 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-18 19:32:15 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-18 19:32:15 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-18 19:32:38 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: f5d3685ab716_images.png (5659 bytes)
+2026-06-18 19:32:38 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-19 10:10:12 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:10:12 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:10:12 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:10:12 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:10:12 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:10:22 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 77a2c42f67cc_e2.png (1567 bytes)
+2026-06-19 10:10:22 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-19 10:16:57 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:16:57 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:16:57 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:16:57 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:16:57 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:17:24 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-19 10:17:24 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-19 10:17:25 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:17:25 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:17:25 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:17:26 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:17:26 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:17:42 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-19 10:17:42 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-19 10:17:44 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:17:44 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:17:44 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:17:44 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:17:44 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:19:08 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 077aaee5d2ab_images.png (5659 bytes)
+2026-06-19 10:19:08 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-19 10:21:43 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:21:43 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:21:43 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:21:43 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:21:43 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:21:56 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-19 10:21:56 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-19 10:21:58 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:21:58 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:21:58 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:21:58 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:21:58 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:22:20 | INFO     | EquationAI.main           | lifespan:64 | Application shutting down...
+2026-06-19 10:22:20 | INFO     | EquationAI.main           | lifespan:75 | Shutdown complete.
+2026-06-19 10:22:22 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:22:22 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:22:22 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:22:22 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:22:22 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 10:22:47 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 6adf80218adb_images.png (5659 bytes)
+2026-06-19 10:22:47 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-19 10:23:42 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 10:23:42 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 10:23:42 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 10:23:42 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 10:23:42 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 15:20:20 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-19 15:20:20 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-19 15:20:20 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-19 15:20:21 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-19 15:20:21 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.
+2026-06-19 15:20:38 | INFO     | EquationAI.file_service   | save_upload:82 | Saved upload: 192b4183a9b9_e2.png (1567 bytes)
+2026-06-19 15:20:38 | INFO     | EquationAI.ocr_service    | _ensure_model:36 | Loading pix2tex LatexOCR model (first use)...
+2026-06-23 09:15:38 | INFO     | EquationAI                | setup_logging:68 | Logging initialized — level=INFO, env=development
+2026-06-23 09:15:38 | INFO     | EquationAI.main           | lifespan:35 | Starting EquationAI v2.0.0 (development)
+2026-06-23 09:15:38 | INFO     | EquationAI.main           | lifespan:39 | Database tables created/verified.
+2026-06-23 09:15:38 | INFO     | EquationAI.history_service | migrate_legacy_history:41 | Database already has entries — skipping legacy migration.
+2026-06-23 09:15:38 | INFO     | EquationAI.main           | lifespan:59 | Application startup complete.

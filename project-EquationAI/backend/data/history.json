@@ -1,0 +1,146 @@
+[
+  {
+    "id": "9f1b3dc6-1c64-429f-9c77-f6c14057fa64",
+    "latex": "\\text{MathML Parsing Error: name 'ET' is not defined}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\">\n  <mrow>\n    <mi>s</mi>\n    <mi>i</mi>\n    <mi>n</mi>\n    <mo stretchy=\"false\">&#x00028;</mo>\n    <mn>2</mn>\n    <mi>x</mi>\n    <mo stretchy=\"false\">&#x00029;</mo>\n    <mo>&#x0003D;</mo>\n    <mn>2</mn>\n    <mi>s</mi>\n    <mi>i</mi>\n    <mi>n</mi>\n    <mo stretchy=\"false\">&#x00028;</mo>\n    <mi>x</mi>\n    <mo stretchy=\"false\">&#x00029;</mo>\n    <mo>&#x0002A;</mo>\n    <mi>c</mi>\n    <mi>o</mi>\n    <mi>s</mi>\n    <mo stretchy=\"false\">&#x00028;</mo>\n    <mi>x</mi>\n    <mo stretchy=\"false\">&#x00029;</mo>\n  </mrow>\n</math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T06:21:33.980929+00:00"
+  },
+  {
+    "id": "cba12258-6f2e-4f7d-8b95-6c71f6cddc1c",
+    "latex": "sin(2x) = 2sin(x)*cos(x) ",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0003D;</mo><mn>2</mn><mi>s</mi><mi>i</mi><mi>n</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo><mo>&#x0002A;</mo><mi>c</mi><mi>o</mi><mi>s</mi><mo stretchy=\"false\">&#x00028;</mo><mi>x</mi><mo stretchy=\"false\">&#x00029;</mo></mrow></math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T06:20:29.244495+00:00"
+  },
+  {
+    "id": "beaf9128-9da4-4692-ae26-5b2db59906d7",
+    "latex": "a2 +b2 =c2\n",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>a</mi><mn>2</mn><mo>&#x0002B;</mo><mi>b</mi><mn>2</mn><mo>&#x0003D;</mo><mi>c</mi><mn>2</mn></mrow></math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T06:17:53.378920+00:00"
+  },
+  {
+    "id": "ea298d62-eb1a-446c-a2d3-b5e5baf5e3a7",
+    "latex": "\\left.\\epsilon\\right\\{\\begin{array}{c c c c}{{x}}&{{\\downarrow}}&{{}}&{{}}\\\\ {{}}&{{\\downarrow}}&{{}}&{{}}\\\\ {{}}&{{}}&{{}}&{{}}\\\\ {{}}&{{}}&{{}}&{{}}\\end{array}\\right.",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>\\left.\\epsilon\\right\\{\\begin{array}{c c c c}{{x}}&{{\\downarrow}}&{{}}&{{}}\\\\ {{}}&{{\\downarrow}}&{{}}&{{}}\\\\ {{}}&{{}}&{{}}&{{}}\\\\ {{}}&{{}}&{{}}&{{}}\\end{array}\\right.</mtext></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-07T06:17:25.701844+00:00"
+  },
+  {
+    "id": "1faecc96-fd78-4250-9f36-042093bf1f67",
+    "latex": "\\begin{array}{l l}{{\\underline{{<}}}}&{{\\underline{{<}}}}\\end{array}\\n\\triangleleft{\\overline{{\\supset}}}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtable><mtr><mtd columnalign=\"left\"><mrow><mrow><munder><mrow><mrow><mo>&#x0003C;</mo></mrow></mrow><mo accent=\"true\">&#x02015;</mo></munder></mrow></mrow></mtd><mtd columnalign=\"left\"><mrow><mrow><munder><mrow><mrow><mo>&#x0003C;</mo></mrow></mrow><mo accent=\"true\">&#x02015;</mo></munder></mrow></mrow></mtd></mtr></mtable><mi>\\n</mi><mi>&#x025C1;</mi><mrow><mover><mrow><mrow><mo>&#x02283;</mo></mrow></mrow><mo accent=\"true\">&#x02015;</mo></mover></mrow></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:59:39.264840+00:00"
+  },
+  {
+    "id": "20a2bf71-c005-4114-8836-81e233def2a5",
+    "latex": "\\begin{array}{c c c}{{\\nabla_{\\Lambda}\\sim\\bigvee_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda\\longrightarrow\\infty}\\sum_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda=1}^{\\L}}}\\\\ {{\\nabla_{\\Lambda}\\left.\\right.\\left\\{\\frac{{\\bf\\nabla}}{\\longrightarrow}\\right.\\left\\{\\frac{{\\bf\\nabla}}{\\Lambda}\\right.\\right.}}\\end{array}\\right.",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>\\begin{array}{c c c}{{\\nabla_{\\Lambda}\\sim\\bigvee_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda\\longrightarrow\\infty}\\sum_{\\Lambda}\\sum_{\\Lambda}\\sum_{\\Lambda=1}^{\\L}}}\\\\ {{\\nabla_{\\Lambda}\\left.\\right.\\left\\{\\frac{{\\bf\\nabla}}{\\longrightarrow}\\right.\\left\\{\\frac{{\\bf\\nabla}}{\\Lambda}\\right.\\right.}}\\end{array}\\right.</mtext></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:59:23.243223+00:00"
+  },
+  {
+    "id": "6e63cba4-ff08-457f-95e4-2d592b8a6682",
+    "latex": "\\frac{x^2 + y^2}{2}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>&#x0002B;</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mrow><mn>2</mn></mrow></mfrac></mrow></math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:58:54.167622+00:00"
+  },
+  {
+    "id": "2299eb95-e624-44e5-878d-dcc48fe5da22",
+    "latex": "\\text{MathML Parsing Error: name 'ET' is not defined}",
+    "mathml": "<math><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:58:46.131778+00:00"
+  },
+  {
+    "id": "871e9601-5b0a-40ff-a6b8-66c3efc249e3",
+    "latex": "\\text{MathML Parsing Error: name 'ET' is not defined}",
+    "mathml": "<math><mfrac><mrow><msup><mi>x</mi><mn>2</mn></msup><mo>+</mo><msup><mi>y</mi><mn>2</mn></msup></mrow><mn>2</mn></mfrac></math>",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:58:43.070406+00:00"
+  },
+  {
+    "id": "0ee606b9-db79-44c4-8e6e-6009bba97a16",
+    "latex": "\\text{MathML Parsing Error: name 'ET' is not defined}",
+    "mathml": "\\begin{array}{l}{{\\left.\\Phi\\right|\\left\\vert\\left.\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\right|\\left|\\right|\\right|\\left|\\Phi\\right|\\right|\\right|}}\\\\ {{\\left|\\Phi\\right\\rangle\\left(\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\end{array}",
+    "source": "converter",
+    "fileName": null,
+    "timestamp": "2026-06-07T05:58:34.218321+00:00"
+  },
+  {
+    "id": "dd421fec-0e3f-49c0-aed3-90132eb86c09",
+    "latex": "\\begin{array}{l}{{\\left.\\Phi\\right|\\left\\vert\\left.\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\right|\\left|\\right|\\right|\\left|\\Phi\\right|\\right|\\right|}}\\\\ {{\\left|\\Phi\\right\\rangle\\left(\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\end{array}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>\\begin{array}{l}{{\\left.\\Phi\\right|\\left\\vert\\left.\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\Phi\\right|\\left|\\right|\\left|\\right|\\right|\\left|\\Phi\\right|\\right|\\right|}}\\\\ {{\\left|\\Phi\\right\\rangle\\left(\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\\\ {{\\left|\\Phi\\right|\\left(\\left|\\Phi\\right|}}\\end{array}</mtext></mrow></math>",
+    "source": "upload",
+    "fileName": "Screenshot 2026-06-07 112743.png",
+    "timestamp": "2026-06-07T05:58:12.223149+00:00"
+  },
+  {
+    "id": "2cf533d6-7d44-48de-84f2-50953e2f6c3c",
+    "latex": "\\frac{\\overline{{{r}}}}{\\vdots}{\\vdots}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mfrac><mrow><mover><mrow><mrow><mrow><mi>r</mi></mrow></mrow></mrow><mo accent=\"true\">&#x02015;</mo></mover></mrow><mrow><mo>&#x022EE;</mo></mrow></mfrac><mrow><mo>&#x022EE;</mo></mrow></mrow></math>",
+    "source": "upload",
+    "fileName": "images.png",
+    "timestamp": "2026-06-07T05:57:18.133613+00:00"
+  },
+  {
+    "id": "0ede62fd-3dd2-46e3-99fe-56b87614aa9c",
+    "latex": "\\begin{array}{c}{{y=-8x+4}}\\\\ {{8x+4y=0}}\\end{array}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtable><mtr><mtd columnalign=\"center\"><mrow><mrow><mi>y</mi><mo>&#x0003D;</mo><mo>&#x02212;</mo><mn>8</mn><mi>x</mi><mo>&#x0002B;</mo><mn>4</mn></mrow></mrow></mtd></mtr><mtr><mtd columnalign=\"center\"><mrow><mrow><mn>8</mn><mi>x</mi><mo>&#x0002B;</mo><mn>4</mn><mi>y</mi><mo>&#x0003D;</mo><mn>0</mn></mrow></mrow></mtd></mtr></mtable></mrow></math>",
+    "source": "upload",
+    "fileName": "download.png",
+    "timestamp": "2026-06-07T05:55:54.193186+00:00"
+  },
+  {
+    "id": "b9f500e0-190e-4b52-a983-981d53b4b693",
+    "latex": "\\-\\protect\\sim\\downarrow_{\\uparrow}^{*}z\\ \\barwedge\\ \\mathbb{Z}^{\\nu<}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mi>\\</mi><mo>&#x02212;</mo><mi>\\protect</mi><mi>&#x0007E;</mi><msubsup><mo>&#x02193;</mo><mrow><mo>&#x02191;</mo></mrow><mrow><mo>&#x0002A;</mo></mrow></msubsup><mi>z</mi><mtext>&#x000A0;</mtext><mo>&#x022BC;</mo><mtext>&#x000A0;</mtext><msup><mi>&#x02124;</mi><mrow><mi>&#x003BD;</mi><mo>&#x0003C;</mo></mrow></msup></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-04T04:04:06.663644+00:00"
+  },
+  {
+    "id": "8dbef801-fcbf-4ac7-923b-9986639aa7de",
+    "latex": "\\left\\{\\begin{array}{c c c}{{}}&{{}}&{{}}\\\\ {{}}&{{\\longrightarrow}}&{{}}\\\\ {{\\downarrow}}&{{\\longrightarrow}}&{{}}\\end{array}\\right.\\bigoplus_{\\textstyle\\atop{\\textstyle\\atop{\\sim}}}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mrow><mo stretchy=\"true\" fence=\"true\" form=\"prefix\">&#x0007B;</mo><mtable><mtr><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd></mtr><mtr><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><mi>&#x027F6;</mi></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd></mtr><mtr><mtd columnalign=\"center\"><mrow><mrow><mo>&#x02193;</mo></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><mi>&#x027F6;</mi></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow /></mrow></mtd></mtr></mtable><mo stretchy=\"true\" fence=\"true\" form=\"postfix\" /></mrow><msub><mi>&#x02A01;</mi><mrow><mfrac linethickness=\"0\"><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mrow><mfrac linethickness=\"0\"><mstyle displaystyle=\"false\" scriptlevel=\"0\"><mrow><mi>&#x0007E;</mi></mrow></mstyle></mfrac></mrow></mstyle></mfrac></mrow></msub></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-04T04:02:33.933105+00:00"
+  },
+  {
+    "id": "da6df97e-4863-4c20-a21d-1bb188cf846d",
+    "latex": "\\left.Y\\right\\{^{\\gamma_{1}}\\lambda^{\\dagger}\\begin{array}{c c c}{{\\lambda\\right}}&{{\\lambda\\right|\\partial_{\\beta^{\\prime}\\stackrel{<}{-\\sum_{\\beta_{2}^{-}}}}^{2}}}\\\\ {{\\chi}}&{{\\langle\\beta^{\\prime}\\stackrel{<}{-\\beta_{2}^{-}}-\\frac{1}{3}{\\pi}-\\frac{\\phantom{+}}{\\textstyle\\frac{1}{2}{\\sqrt{-2\\sqrt{3}}}}\\end{array}\\right.",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mtext>\\left.Y\\right\\{^{\\gamma_{1}}\\lambda^{\\dagger}\\begin{array}{c c c}{{\\lambda\\right}}&{{\\lambda\\right|\\partial_{\\beta^{\\prime}\\stackrel{<}{-\\sum_{\\beta_{2}^{-}}}}^{2}}}\\\\ {{\\chi}}&{{\\langle\\beta^{\\prime}\\stackrel{<}{-\\beta_{2}^{-}}-\\frac{1}{3}{\\pi}-\\frac{\\phantom{+}}{\\textstyle\\frac{1}{2}{\\sqrt{-2\\sqrt{3}}}}\\end{array}\\right.</mtext></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-04T04:02:05.927122+00:00"
+  },
+  {
+    "id": "d050a6e8-fd6c-4d57-8d1c-e2d862354c0c",
+    "latex": "\\begin{array}{c c c}{{\\zeta(2)}}&{{\\chi(2)}}&{{{\\Lambda(1)}^{2}}}&{{{\\Lambda(1)}^{2}}}\\\\ {{\\sim}}&{{\\sqrt{2}^{2}}}&{{{\\Lambda(1)}^{2}}}\\end{array}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mtable><mtr><mtd columnalign=\"center\"><mrow><mrow><mi>&#x003B6;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><mi>&#x003C7;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>2</mn><mo stretchy=\"false\">&#x00029;</mo></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><msup><mrow><mi>&#x0039B;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><msup><mrow><mi>&#x0039B;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mtd></mtr><mtr><mtd columnalign=\"center\"><mrow><mrow><mi>&#x0007E;</mi></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><msup><msqrt><mrow><mn>2</mn></mrow></msqrt><mrow><mn>2</mn></mrow></msup></mrow></mrow></mtd><mtd columnalign=\"center\"><mrow><mrow><msup><mrow><mi>&#x0039B;</mi><mo stretchy=\"false\">&#x00028;</mo><mn>1</mn><mo stretchy=\"false\">&#x00029;</mo></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mtd></mtr></mtable></mrow></math>",
+    "source": "handwriting",
+    "fileName": null,
+    "timestamp": "2026-06-04T04:00:31.690468+00:00"
+  },
+  {
+    "id": "59c57335-61d3-438e-9c7f-7aea157c38f5",
+    "latex": "\\displaystyle\\sum_{\\stackrel{\\mathrm{\\tiny{<}}}{\\mathrm{suartuartonicandense}}}\\sum_{\\mathrm{\\tiny{S}}}",
+    "mathml": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mrow><mstyle displaystyle=\"true\" scriptlevel=\"0\"><msub><mo>&#x02211;</mo><mrow><mi>\\stackrel</mi><mrow><mrow><mstyle mathsize=\"0.5em\"><mrow><mo>&#x0003C;</mo></mrow></mstyle></mrow></mrow><mrow><mrow><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">u</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">r</mi><mi mathvariant=\"normal\">t</mi><mi mathvariant=\"normal\">o</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">i</mi><mi mathvariant=\"normal\">c</mi><mi mathvariant=\"normal\">a</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">d</mi><mi mathvariant=\"normal\">e</mi><mi mathvariant=\"normal\">n</mi><mi mathvariant=\"normal\">s</mi><mi mathvariant=\"normal\">e</mi></mrow></mrow></mrow></msub><msub><mo>&#x02211;</mo><mrow><mrow><mstyle mathsize=\"0.5em\"><mrow><mi mathvariant=\"normal\">S</mi></mrow></mstyle></mrow></mrow></msub></mstyle></mrow></math>",
+    "source": "upload",
+    "fileName": "download.png",
+    "timestamp": "2026-06-04T03:56:55.973494+00:00"
+  }
+]
