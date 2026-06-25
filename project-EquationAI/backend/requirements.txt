@@ -1,0 +1,38 @@
+# ═══════════════════════════════════════════════════
+# EquationAI — Python Dependencies
+# ═══════════════════════════════════════════════════
+
+# ── Core Framework ──
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# ── Database ──
+sqlalchemy>=2.0.0
+alembic>=1.13.0
+
+# ── Authentication ──
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+email-validator>=2.1.0
+
+# ── AI / OCR ──
+Pillow>=10.0.0
+pix2tex>=0.1.1
+latex2mathml>=3.77.0
+
+# ── Semantic Search ──
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# ── File Processing ──
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+fpdf2>=2.7.0
+aiofiles>=23.2.0
+
+# ── Utilities ──
+python-dotenv>=1.0.0
+numpy>=1.24.0
